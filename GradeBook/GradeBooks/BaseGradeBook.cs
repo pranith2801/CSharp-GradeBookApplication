@@ -111,7 +111,7 @@ namespace GradeBook.GradeBooks
 
         public virtual int GetGPA(char letterGrade, StudentType studentType)
         {
-            var grade;
+            var grade = 0;
             switch (letterGrade)
             {
                 case 'A':
